@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Berita View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="BeritaViewController" id="Y6W-OH-hqX" customClass="BeritaViewController" customModule="BeritaIndo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7e2-pm-Yg0">
+                                <rect key="frame" x="0.0" y="47" width="390" height="184"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="News Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZA-vy-p9X">
+                                <rect key="frame" x="20" y="247" width="350" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Content " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kD6-Qk-3dE">
+                                <rect key="frame" x="20" y="276" width="350" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Author Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHj-Su-RLZ">
+                                <rect key="frame" x="20" y="305" width="350" height="18"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiK-eq-DGU">
+                                <rect key="frame" x="20" y="355" width="105" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Link Berita"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="kD6-Qk-3dE" secondAttribute="trailing" constant="20" id="1eQ-RF-yh7"/>
+                            <constraint firstItem="7e2-pm-Yg0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="1og-ed-xD9"/>
+                            <constraint firstItem="kD6-Qk-3dE" firstAttribute="top" secondItem="1ZA-vy-p9X" secondAttribute="bottom" constant="12" id="4j7-9O-a5n"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1ZA-vy-p9X" secondAttribute="trailing" constant="20" id="8As-TR-eLX"/>
+                            <constraint firstItem="7e2-pm-Yg0" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="E1T-Mq-F0Y"/>
+                            <constraint firstItem="7e2-pm-Yg0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="MRQ-DO-rzE"/>
+                            <constraint firstItem="mHj-Su-RLZ" firstAttribute="leading" secondItem="kD6-Qk-3dE" secondAttribute="leading" id="U24-50-Qgp"/>
+                            <constraint firstItem="mHj-Su-RLZ" firstAttribute="top" secondItem="kD6-Qk-3dE" secondAttribute="bottom" constant="12" id="Yqj-Oy-qYy"/>
+                            <constraint firstItem="AiK-eq-DGU" firstAttribute="leading" secondItem="mHj-Su-RLZ" secondAttribute="leading" id="eAR-9L-Cay"/>
+                            <constraint firstItem="AiK-eq-DGU" firstAttribute="top" secondItem="mHj-Su-RLZ" secondAttribute="bottom" constant="24" id="eVJ-xQ-n2q"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mHj-Su-RLZ" secondAttribute="trailing" constant="20" id="ewm-rt-Dl0"/>
+                            <constraint firstItem="kD6-Qk-3dE" firstAttribute="leading" secondItem="1ZA-vy-p9X" secondAttribute="leading" id="sgF-wm-ipj"/>
+                            <constraint firstItem="1ZA-vy-p9X" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="tQL-iH-7lg"/>
+                            <constraint firstItem="1ZA-vy-p9X" firstAttribute="top" secondItem="7e2-pm-Yg0" secondAttribute="bottom" constant="12" id="yNB-zh-fy5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="authorDate" destination="mHj-Su-RLZ" id="59N-YL-gMn"/>
+                        <outlet property="contentBerita" destination="kD6-Qk-3dE" id="1eY-2m-vSm"/>
+                        <outlet property="linkButton" destination="AiK-eq-DGU" id="BQ3-v8-QwR"/>
+                        <outlet property="thumbImageBerita" destination="7e2-pm-Yg0" id="hAB-cl-Xna"/>
+                        <outlet property="titleBeritaView" destination="1ZA-vy-p9X" id="CHg-vO-h57"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44.615384615384613" y="-2.1327014218009479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

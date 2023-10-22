@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F7A6A02E5616D3AE29FD22E /* Pods_BeritaIndo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E240894FA5B485B4FBE2C61 /* Pods_BeritaIndo.framework */; };
+		594357F42AE0EA6200DD2A69 /* Beranda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594357F32AE0EA6200DD2A69 /* Beranda.storyboard */; };
+		594357F62AE0EAA500DD2A69 /* BerandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594357F52AE0EAA500DD2A69 /* BerandaViewController.swift */; };
+		594357F82AE0F13C00DD2A69 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594357F72AE0F13C00DD2A69 /* Category.swift */; };
+		594357FA2AE0F64300DD2A69 /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594357F92AE0F64300DD2A69 /* NewsViewCell.swift */; };
+		594357FD2AE1D4E700DD2A69 /* Berita.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594357FC2AE1D4E700DD2A69 /* Berita.storyboard */; };
+		594357FF2AE1D53E00DD2A69 /* BeritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594357FE2AE1D53E00DD2A69 /* BeritaViewController.swift */; };
+		598470642AE06F630009330C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598470632AE06F630009330C /* AppDelegate.swift */; };
+		598470662AE06F630009330C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598470652AE06F630009330C /* SceneDelegate.swift */; };
+		598470682AE06F630009330C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598470672AE06F630009330C /* ViewController.swift */; };
+		5984706B2AE06F630009330C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 598470692AE06F630009330C /* Main.storyboard */; };
+		5984706D2AE06F640009330C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5984706C2AE06F640009330C /* Assets.xcassets */; };
+		598470702AE06F640009330C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5984706E2AE06F640009330C /* LaunchScreen.storyboard */; };
+		5984707B2AE071C50009330C /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5984707A2AE071C50009330C /* NewsResponse.swift */; };
+		5984707D2AE071D20009330C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5984707C2AE071D20009330C /* News.swift */; };
+		598470882AE07A230009330C /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598470872AE07A230009330C /* ApiService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E240894FA5B485B4FBE2C61 /* Pods_BeritaIndo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeritaIndo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0D23915C601D4906BB764F /* Pods-BeritaIndo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeritaIndo.release.xcconfig"; path = "Target Support Files/Pods-BeritaIndo/Pods-BeritaIndo.release.xcconfig"; sourceTree = "<group>"; };
+		59399834B41C8A389C579588 /* Pods-BeritaIndo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeritaIndo.debug.xcconfig"; path = "Target Support Files/Pods-BeritaIndo/Pods-BeritaIndo.debug.xcconfig"; sourceTree = "<group>"; };
+		594357F32AE0EA6200DD2A69 /* Beranda.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Beranda.storyboard; sourceTree = "<group>"; };
+		594357F52AE0EAA500DD2A69 /* BerandaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerandaViewController.swift; sourceTree = "<group>"; };
+		594357F72AE0F13C00DD2A69 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		594357F92AE0F64300DD2A69 /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		594357FC2AE1D4E700DD2A69 /* Berita.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Berita.storyboard; sourceTree = "<group>"; };
+		594357FE2AE1D53E00DD2A69 /* BeritaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaViewController.swift; sourceTree = "<group>"; };
+		598470602AE06F630009330C /* BeritaIndo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeritaIndo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598470632AE06F630009330C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		598470652AE06F630009330C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		598470672AE06F630009330C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5984706A2AE06F630009330C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5984706C2AE06F640009330C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5984706F2AE06F640009330C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		598470712AE06F640009330C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5984707A2AE071C50009330C /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		5984707C2AE071D20009330C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		598470872AE07A230009330C /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5984705D2AE06F630009330C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7A6A02E5616D3AE29FD22E /* Pods_BeritaIndo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594357F22AE0EA3D00DD2A69 /* Beranda */ = {
+			isa = PBXGroup;
+			children = (
+				594357F32AE0EA6200DD2A69 /* Beranda.storyboard */,
+				594357F92AE0F64300DD2A69 /* NewsViewCell.swift */,
+				594357F52AE0EAA500DD2A69 /* BerandaViewController.swift */,
+			);
+			path = Beranda;
+			sourceTree = "<group>";
+		};
+		594357FB2AE1D46500DD2A69 /* Halaman Berita */ = {
+			isa = PBXGroup;
+			children = (
+				594357FC2AE1D4E700DD2A69 /* Berita.storyboard */,
+				594357FE2AE1D53E00DD2A69 /* BeritaViewController.swift */,
+			);
+			path = "Halaman Berita";
+			sourceTree = "<group>";
+		};
+		598470572AE06F630009330C = {
+			isa = PBXGroup;
+			children = (
+				598470862AE079CF0009330C /* Services */,
+				598470622AE06F630009330C /* BeritaIndo */,
+				598470612AE06F630009330C /* Products */,
+				9B6C6E03B715BB1F707BBE6D /* Pods */,
+				66FFCA373E1E4634F931CCC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		598470612AE06F630009330C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598470602AE06F630009330C /* BeritaIndo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598470622AE06F630009330C /* BeritaIndo */ = {
+			isa = PBXGroup;
+			children = (
+				598470632AE06F630009330C /* AppDelegate.swift */,
+				598470652AE06F630009330C /* SceneDelegate.swift */,
+				598470792AE071830009330C /* Entities */,
+				598470772AE071080009330C /* Presentations */,
+				5984706C2AE06F640009330C /* Assets.xcassets */,
+				5984706E2AE06F640009330C /* LaunchScreen.storyboard */,
+				598470712AE06F640009330C /* Info.plist */,
+			);
+			path = BeritaIndo;
+			sourceTree = "<group>";
+		};
+		598470772AE071080009330C /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				594357FB2AE1D46500DD2A69 /* Halaman Berita */,
+				594357F22AE0EA3D00DD2A69 /* Beranda */,
+				598470782AE071280009330C /* Main */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		598470782AE071280009330C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				598470672AE06F630009330C /* ViewController.swift */,
+				598470692AE06F630009330C /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		598470792AE071830009330C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5984707A2AE071C50009330C /* NewsResponse.swift */,
+				5984707C2AE071D20009330C /* News.swift */,
+				594357F72AE0F13C00DD2A69 /* Category.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		598470862AE079CF0009330C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				598470872AE07A230009330C /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		66FFCA373E1E4634F931CCC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E240894FA5B485B4FBE2C61 /* Pods_BeritaIndo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B6C6E03B715BB1F707BBE6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59399834B41C8A389C579588 /* Pods-BeritaIndo.debug.xcconfig */,
+				4C0D23915C601D4906BB764F /* Pods-BeritaIndo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5984705F2AE06F630009330C /* BeritaIndo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598470742AE06F640009330C /* Build configuration list for PBXNativeTarget "BeritaIndo" */;
+			buildPhases = (
+				3B4EF8B163C0C4C7C550F958 /* [CP] Check Pods Manifest.lock */,
+				5984705C2AE06F630009330C /* Sources */,
+				5984705D2AE06F630009330C /* Frameworks */,
+				5984705E2AE06F630009330C /* Resources */,
+				2CA5780DED86C4507A62F77E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeritaIndo;
+			packageProductDependencies = (
+			);
+			productName = BeritaIndo;
+			productReference = 598470602AE06F630009330C /* BeritaIndo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598470582AE06F630009330C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5984705F2AE06F630009330C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5984705B2AE06F630009330C /* Build configuration list for PBXProject "BeritaIndo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 598470572AE06F630009330C;
+			packageReferences = (
+			);
+			productRefGroup = 598470612AE06F630009330C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5984705F2AE06F630009330C /* BeritaIndo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5984705E2AE06F630009330C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598470702AE06F640009330C /* LaunchScreen.storyboard in Resources */,
+				5984706D2AE06F640009330C /* Assets.xcassets in Resources */,
+				5984706B2AE06F630009330C /* Main.storyboard in Resources */,
+				594357FD2AE1D4E700DD2A69 /* Berita.storyboard in Resources */,
+				594357F42AE0EA6200DD2A69 /* Beranda.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CA5780DED86C4507A62F77E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeritaIndo/Pods-BeritaIndo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeritaIndo/Pods-BeritaIndo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeritaIndo/Pods-BeritaIndo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4EF8B163C0C4C7C550F958 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeritaIndo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5984705C2AE06F630009330C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594357FF2AE1D53E00DD2A69 /* BeritaViewController.swift in Sources */,
+				598470682AE06F630009330C /* ViewController.swift in Sources */,
+				594357F82AE0F13C00DD2A69 /* Category.swift in Sources */,
+				5984707B2AE071C50009330C /* NewsResponse.swift in Sources */,
+				594357FA2AE0F64300DD2A69 /* NewsViewCell.swift in Sources */,
+				598470642AE06F630009330C /* AppDelegate.swift in Sources */,
+				5984707D2AE071D20009330C /* News.swift in Sources */,
+				594357F62AE0EAA500DD2A69 /* BerandaViewController.swift in Sources */,
+				598470662AE06F630009330C /* SceneDelegate.swift in Sources */,
+				598470882AE07A230009330C /* ApiService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		598470692AE06F630009330C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5984706A2AE06F630009330C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5984706E2AE06F640009330C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5984706F2AE06F640009330C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598470722AE06F640009330C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		598470732AE06F640009330C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		598470752AE06F640009330C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59399834B41C8A389C579588 /* Pods-BeritaIndo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeritaIndo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Berita Indonesia";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.JHNM.01.BeritaIndo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		598470762AE06F640009330C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0D23915C601D4906BB764F /* Pods-BeritaIndo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeritaIndo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Berita Indonesia";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.JHNM.01.BeritaIndo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5984705B2AE06F630009330C /* Build configuration list for PBXProject "BeritaIndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598470722AE06F640009330C /* Debug */,
+				598470732AE06F640009330C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598470742AE06F640009330C /* Build configuration list for PBXNativeTarget "BeritaIndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598470752AE06F640009330C /* Debug */,
+				598470762AE06F640009330C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598470582AE06F630009330C /* Project object */;
+}

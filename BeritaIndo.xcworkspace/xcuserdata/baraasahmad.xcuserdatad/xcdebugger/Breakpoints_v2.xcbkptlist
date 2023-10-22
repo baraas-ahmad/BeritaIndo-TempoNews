@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "55756CE6-F3E7-400E-B044-F594B69171E6"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "893637E8-257F-4E0B-B0BA-6D22FAE0F01D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeritaIndo/Presentations/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "893637E8-257F-4E0B-B0BA-6D22FAE0F01D - 7472072f64e2b493"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BeritaIndo.HomeViewController"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "893637E8-257F-4E0B-B0BA-6D22FAE0F01D - edea78931fa0d76f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BeritaIndo.HomeViewController"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "893637E8-257F-4E0B-B0BA-6D22FAE0F01D - 757b09cabbace4ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BeritaIndo.HomeViewController&gt;"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "893637E8-257F-4E0B-B0BA-6D22FAE0F01D - 6b364526f8c0f32b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BeritaIndo.HomeViewController&gt;"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "893637E8-257F-4E0B-B0BA-6D22FAE0F01D - ddeccda6082e6ac8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.__deallocating_deinit"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B6E92AE-971F-45A2-92C0-BF9FE38F7859"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeritaIndo/Presentations/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39667940-2329-4C21-80B6-D4B012CD36D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeritaIndo/Presentations/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "HomeViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "39667940-2329-4C21-80B6-D4B012CD36D4 - f0da95b21823179e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.NewsList.getter : Swift.Array&lt;BeritaIndo.News&gt;"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "39667940-2329-4C21-80B6-D4B012CD36D4 - 6934cca981ad67aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.NewsList.setter : Swift.Array&lt;BeritaIndo.News&gt;"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "39667940-2329-4C21-80B6-D4B012CD36D4 - 6bfa6673b80b6399"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.NewsList.modify : Swift.Array&lt;BeritaIndo.News&gt;"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "39667940-2329-4C21-80B6-D4B012CD36D4 - b09bb12251e7c180"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.NewsList.modify : Swift.Array&lt;BeritaIndo.News&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "39667940-2329-4C21-80B6-D4B012CD36D4 - edea78931fa0d721"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BeritaIndo.HomeViewController"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "39667940-2329-4C21-80B6-D4B012CD36D4 - 6b364526f8c0f365"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeritaIndo.HomeViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BeritaIndo.HomeViewController&gt;"
+                  moduleName = "BeritaIndo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baraasahmad/Desktop/ios%20development%20exercise/BeritaIndo/BeritaIndo/Presentations/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
